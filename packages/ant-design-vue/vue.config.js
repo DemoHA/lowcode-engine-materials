@@ -16,7 +16,12 @@ module.exports = defineConfig({
     lowcode: defineLowCodePluginOption({
       assetsConfig: {
         builtinAssets: {
-          packages: [],
+          packages: [
+            {
+              package: 'iconfont-icons',
+              urls: '//at.alicdn.com/t/font_2369445_ukrtsovd92r.js',
+            },
+          ],
           components: [],
         },
       },
